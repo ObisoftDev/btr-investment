@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>BTR : Registro</title>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/ajax-send.js"></script>
+    <script src="js/functions.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="content-header">
+                <img class="logo" width="70" src="img/btc.logo.jpg">
+                <a class="a-home" href="login.html">
+                    <h2 class="logotipo">Registro</h2>
+                </a>
+            </div>
+            <nav>
+                <a href="login.html" class="activo">Entrar</a>
+            </nav>
+        </div>
+    </header>
+
+    <form method="post" action="activate.html" class="poster-form">
+        <input hidden name="action" type="text" value="create"/>
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <label style="font-size:12px;"><b>Nombre De Usuario</b></label><br />
+                        <input style="width:100%;height:20px;" class="input-style" name="name" type="password" /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="font-size:12px;"><b>Contraseña</b></label><br />
+                        <input style="width:100%;height:20px;" class="input-style" name="thumburl" type="text" /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="font-size:12px;"><b>Numero De Telefono</b></label><br />
+                        <input style="width:100%;height:20px;" class="input-style" name="key" type="text" /><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br />
+                        <button style="width:100%;" role="button" class="boton" type="submit">
+                            <i class="fab fa-android"></i>
+                            Registrar
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+
+    <div class="pelicula-principal"></div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+                //Script de la pajina
+    </script>
+
+    <div class="footer">
+        <p style="color:gray;">@Copyright <a style="color:gray;text-decoration:underline;" href="https://t.me/btr_agent"><b>BTR</b></a>. All Right Reserved</p>
+    </div>
+</body>
+</html>
