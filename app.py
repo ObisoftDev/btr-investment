@@ -12,4 +12,4 @@ def static_dir(path):
     return send_from_directory("www", path)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=443)
