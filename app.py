@@ -2,7 +2,6 @@ from flask import Flask, send_file,send_from_directory,jsonify,redirect,abort,re
 import json
 import os
 import uuid
-import api
 
 template_dir = os.path.abspath('www')
 app = Flask(__name__,template_folder=template_dir)
